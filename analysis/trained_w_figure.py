@@ -65,7 +65,7 @@ if __name__ == '__main__':
     for col, name in [(0, 'ETTh1'), (2, 'Weather')]:
         init, trained, labels, names, cc = train_v4(name, data_dir=a.data_dir)
         vmax = max(init.max(), trained.max())
-        panel(axes[col], init, names, labels, f'{name}: khởi tạo (phổ)', vmax)
+        panel(axes[col], init, names, labels, f'{name}: khởi tạo (theo nhóm biến)', vmax)
         panel(axes[col + 1], trained, names, labels, f'{name}: sau huấn luyện (cos$_c$={cc:.2f})', vmax)
         own = np.mean([trained[labels == k, k].sum() for k in range(trained.shape[1])])
         print(f'{name}: centred cos={cc:.3f}, mean own-group weight after training={own:.2f}')
