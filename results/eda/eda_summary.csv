@@ -1,0 +1,9 @@
+dataset,target_col,n_rows,period,trend_strength,seasonal_strength,acf_at_period,acf_decay_lag
+ETTh1,OT,17420,24,0.9691,0.2775,0.9399,
+ETTm1,OT,69680,96,0.9691,0.2774,0.9396,
+Exchange,8,7588,7,0.9987,0.0,0.996,
+Weather,OT,52696,144,0.5407,0.673,0.7106,41.0
+Covid,55,335,7,0.9498,0.0046,0.7631,
+Solar,V136,52560,144,0.1178,0.8059,0.8173,27.0
+ECL,OT,26304,24,0.737,0.6278,0.7344,33.0
+Traffic,OT,17544,24,0.4255,0.916,0.918,6.0

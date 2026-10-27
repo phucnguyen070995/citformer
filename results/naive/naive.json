@@ -1,0 +1,142 @@
+[
+ {
+  "dataset": "ETTh1",
+  "model": "Naive",
+  "period": null,
+  "n_windows": 1000,
+  "MAE": 2.1767959594726562,
+  "MSE": 8.080436706542969,
+  "RMSE": 2.842610896085317,
+  "SMAPE": 51.32866287231445
+ },
+ {
+  "dataset": "ETTh1",
+  "model": "SeasonalNaive",
+  "period": 24,
+  "n_windows": 1000,
+  "MAE": 2.3087358474731445,
+  "MSE": 8.622138023376465,
+  "RMSE": 2.936347735431971,
+  "SMAPE": 54.09354019165039
+ },
+ {
+  "dataset": "ETTm1",
+  "model": "Naive",
+  "period": null,
+  "n_windows": 1000,
+  "MAE": 1.1365242004394531,
+  "MSE": 2.0954439640045166,
+  "RMSE": 1.4475648393092853,
+  "SMAPE": 38.618316650390625
+ },
+ {
+  "dataset": "ETTm1",
+  "model": "SeasonalNaive",
+  "period": 96,
+  "n_windows": 1000,
+  "MAE": 1.430545687675476,
+  "MSE": 2.934378147125244,
+  "RMSE": 1.7130026699118843,
+  "SMAPE": 47.14296340942383
+ },
+ {
+  "dataset": "Exchange",
+  "model": "Naive",
+  "period": null,
+  "n_windows": 1000,
+  "MAE": 0.010838890448212624,
+  "MSE": 0.00020166051399428397,
+  "RMSE": 0.014200722305371793,
+  "SMAPE": 1.4200159311294556
+ },
+ {
+  "dataset": "Exchange",
+  "model": "SeasonalNaive",
+  "period": 7,
+  "n_windows": 1000,
+  "MAE": 0.011315523646771908,
+  "MSE": 0.0002151053777197376,
+  "RMSE": 0.014666471208840168,
+  "SMAPE": 1.4820587635040283
+ },
+ {
+  "dataset": "Weather",
+  "model": "Naive",
+  "period": null,
+  "n_windows": 1000,
+  "MAE": 11.971101760864258,
+  "MSE": 259.8382568359375,
+  "RMSE": 16.119499273734824,
+  "SMAPE": 2.7678332328796387
+ },
+ {
+  "dataset": "Covid",
+  "model": "Naive",
+  "period": null,
+  "n_windows": 48,
+  "MAE": 6.8839287757873535,
+  "MSE": 78.43748474121094,
+  "RMSE": 8.85649393051285,
+  "SMAPE": 26.920509338378906
+ },
+ {
+  "dataset": "Covid",
+  "model": "SeasonalNaive",
+  "period": 7,
+  "n_windows": 48,
+  "MAE": 9.565476417541504,
+  "MSE": 126.48213958740234,
+  "RMSE": 11.246427858987152,
+  "SMAPE": 42.57337188720703
+ },
+ {
+  "dataset": "Solar",
+  "model": "Naive",
+  "period": null,
+  "n_windows": 1000,
+  "MAE": 9.40340518951416,
+  "MSE": 224.45254516601562,
+  "RMSE": 14.981740391757414,
+  "SMAPE": 123.33827209472656
+ },
+ {
+  "dataset": "ECL",
+  "model": "Naive",
+  "period": null,
+  "n_windows": 1000,
+  "MAE": 625.8499755859375,
+  "MSE": 638251.5,
+  "RMSE": 798.9064400791873,
+  "SMAPE": 17.916759490966797
+ },
+ {
+  "dataset": "ECL",
+  "model": "SeasonalNaive",
+  "period": 24,
+  "n_windows": 1000,
+  "MAE": 391.3956604003906,
+  "MSE": 291760.25,
+  "RMSE": 540.1483592495676,
+  "SMAPE": 11.09492015838623
+ },
+ {
+  "dataset": "Traffic",
+  "model": "Naive",
+  "period": null,
+  "n_windows": 1000,
+  "MAE": 0.025503456592559814,
+  "MSE": 0.0009845163440331817,
+  "RMSE": 0.031377003426604995,
+  "SMAPE": 79.77265930175781
+ },
+ {
+  "dataset": "Traffic",
+  "model": "SeasonalNaive",
+  "period": 24,
+  "n_windows": 1000,
+  "MAE": 0.007440445013344288,
+  "MSE": 0.00011477217776700854,
+  "RMSE": 0.010713177762317236,
+  "SMAPE": 25.676395416259766
+ }
+]

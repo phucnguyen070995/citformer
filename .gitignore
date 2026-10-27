@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# Datasets are downloaded separately (see data/README.md)
+data/*
+!data/README.md
+*.csv.gz
+*.txt.gz
+
+# Regenerated outputs
+results/figures/
+*.pt
+*.pth
+smoke.json

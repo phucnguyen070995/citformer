@@ -1,0 +1,9 @@
+# Versions used for the thesis experiments (Python 3.12).
+numpy==2.5.1
+pandas==3.0.3
+scipy==1.18.0
+scikit-learn==1.9.0
+statsmodels==0.14.6
+matplotlib==3.11.1
+torch==2.13.0
+pytest==9.1.1
